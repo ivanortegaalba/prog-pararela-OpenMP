@@ -16,10 +16,10 @@ export OMP_THREAD_LIMIT=12
 echo "Nº de threads inicial: $OMP_THREAD_LIMIT"
 #Se ejecuta HelloOMP, que está en el directorio en el que se ha ejecutado qsub
 #Mostramos el directorio donde se encuentra:
-echo "Nº de threads inicial: $PBS_O_WORKDIR"
+echo "Directorio de trabajo: $PBS_O_WORKDIR"
 for ((P=OMP_THREAD_LIMIT;P>0;P=P/2))
 do
  export OMP_NUM_THREADS=$P
  echo -e "\nPara $OMP_NUM_THREADS threads:"
- $PBS_O_WORKDIR/Hello-World
+ $HOME/P0/Hello-World
 done
