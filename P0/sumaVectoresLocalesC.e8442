@@ -1,0 +1,9 @@
+/var/lib/torque/mom_priv/jobs/8442.atcgrid.SC: line 2: PROGRAMA: command not found
+/var/lib/torque/mom_priv/jobs/8442.atcgrid.SC: line 21: 20751 Segmentation fault      (core dumped) $PBS_O_WORKDIR/SumaVectores-VECTOR_LOCAL_C $N
+/var/lib/torque/mom_priv/jobs/8442.atcgrid.SC: line 21: 20753 Segmentation fault      (core dumped) $PBS_O_WORKDIR/SumaVectores-VECTOR_LOCAL_C $N
+/var/lib/torque/mom_priv/jobs/8442.atcgrid.SC: line 21: 20756 Segmentation fault      (core dumped) $PBS_O_WORKDIR/SumaVectores-VECTOR_LOCAL_C $N
+/var/lib/torque/mom_priv/jobs/8442.atcgrid.SC: line 21: 20760 Segmentation fault      (core dumped) $PBS_O_WORKDIR/SumaVectores-VECTOR_LOCAL_C $N
+/var/lib/torque/mom_priv/jobs/8442.atcgrid.SC: line 21: 20762 Segmentation fault      (core dumped) $PBS_O_WORKDIR/SumaVectores-VECTOR_LOCAL_C $N
+/var/lib/torque/mom_priv/jobs/8442.atcgrid.SC: line 21: 20764 Segmentation fault      (core dumped) $PBS_O_WORKDIR/SumaVectores-VECTOR_LOCAL_C $N
+/var/lib/torque/mom_priv/jobs/8442.atcgrid.SC: line 21: 20766 Segmentation fault      (core dumped) $PBS_O_WORKDIR/SumaVectores-VECTOR_LOCAL_C $N
+/var/lib/torque/mom_priv/jobs/8442.atcgrid.SC: line 21: 20768 Segmentation fault      (core dumped) $PBS_O_WORKDIR/SumaVectores-VECTOR_LOCAL_C $N
