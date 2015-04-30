@@ -16,9 +16,6 @@ main()
 
    #pragma omp parallel
    {
-     //El valor de entrada es indefinido de la variable private, por lo que
-     //siempre tenemos que inicializarla. Lo que se modifica en el bloque paralelo
-     //no afecta al valor que tuviese esa variable antes del bloque.
 	suma=0;
 
 	#pragma omp for
