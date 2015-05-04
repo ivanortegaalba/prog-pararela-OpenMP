@@ -63,37 +63,36 @@ int main(int argc, char** argv){
         v1[i] = N*0.1+i*0.1;
       }
     #pragma omp section
-      for(int i=0; i<N/4; i++){
+      for(int i=N/8; i<N/4; i++){
         v1[i] = N*0.1+i*0.1;
       }
     #pragma omp section
-      for(int i=0; i<(3*N/8); i++){
+      for(int i=N/4; i<(3*N/8); i++){
         v1[i] = N*0.1+i*0.1;
       }
     #pragma omp section
-      for(int i=0; i<N/2; i++){
+      for(int i=(3*N/8); i<N/2; i++){
         v1[i] = N*0.1+i*0.1;
       }
     #pragma omp section
-      for(int i=0; i<(5*N/8); i++){
+      for(int i=N/2; i<(5*N/8); i++){
         v1[i] = N*0.1+i*0.1;
       }
     #pragma omp section
-      for(int i=0; i<(3*N/4); i++){
+      for(int i=(5*N/8); i<(3*N/4); i++){
         v1[i] = N*0.1+i*0.1;
       }
     #pragma omp section
-      for(int i=0; i<(7*N/8); i++){
+      for(int i=(3*N/4); i<(7*N/8); i++){
         v1[i] = N*0.1+i*0.1;
       }
     #pragma omp section
-      for(int i=0; i<N; i++){
+      for(int i=(7*N/8); i<N; i++){
         v1[i] = N*0.1+i*0.1;
       }
   }
   //Calcular suma de vectores
   start = omp_get_wtime();
-
   #pragma omp parallel sections
   {
     #pragma omp section
@@ -101,34 +100,34 @@ int main(int argc, char** argv){
         v3[i] = v1[i] + v2[i];
       }
     #pragma omp section
-      for(int i=0; i<N/4; i++){
+      for(int i=N/8; i<N/4; i++){
         v3[i] = v1[i] + v2[i];
       }
     #pragma omp section
-      for(int i=0; i<(3*N/8); i++){
+      for(int i=N/4; i<(3*N/8); i++){
         v3[i] = v1[i] + v2[i];
       }
-      #pragma omp section
-        for(int i=0; i<N/2; i++){
-          v3[i] = v1[i] + v2[i];
-        }
-      #pragma omp section
-        for(int i=0; i<(5*N/8); i++){
-          v3[i] = v1[i] + v2[i];
-        }
-      #pragma omp section
-        for(int i=0; i<(3*N/4); i++){
-          v3[i] = v1[i] + v2[i];
+    #pragma omp section
+      for(int i=(3*N/8); i<N/2; i++){
+        v3[i] = v1[i] + v2[i];
       }
-      #pragma omp section
-        for(int i=0; i<(7*N/8); i++){
-          v3[i] = v1[i] + v2[i];
-        }
-      #pragma omp section
-        for(int i=0; i<N; i++){
-          v3[i] = v1[i] + v2[i];
-        }
-    }
+    #pragma omp section
+      for(int i=N/2; i<(5*N/8); i++){
+        v3[i] = v1[i] + v2[i];
+      }
+    #pragma omp section
+      for(int i=(5*N/8); i<(3*N/4); i++){
+        v3[i] = v1[i] + v2[i];
+      }
+    #pragma omp section
+      for(int i=(3*N/4); i<(7*N/8); i++){
+        v3[i] = v1[i] + v2[i];
+      }
+    #pragma omp section
+      for(int i=(7*N/8); i<N; i++){
+        v3[i] = v1[i] + v2[i];
+      }
+  }
 
   end =  omp_get_wtime();
 
