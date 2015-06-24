@@ -1,0 +1,15 @@
+resultado[0][0] = 500500
+resultado[N-1][N-1] = 5.005e+08
+Tiempo(seg.):26.615600175	 / Tamaño Matrices:1000
+resultado[0][0] = 500500
+resultado[N-1][N-1] = 5.005e+08
+Tiempo(seg.):9.537207111	 / Tamaño Matrices:1000
+resultado[0][0] = 500500
+resultado[N-1][N-1] = 5.005e+08
+Tiempo(seg.):9.648523655	 / Tamaño Matrices:1000
+resultado[0][0] = 500500
+resultado[N-1][N-1] = 5.005e+08
+Tiempo(seg.):9.678579262	 / Tamaño Matrices:1000
+resultado[0][0] = 500500
+resultado[N-1][N-1] = 5.005e+08
+Tiempo(seg.):13.253528566	 / Tamaño Matrices:1000

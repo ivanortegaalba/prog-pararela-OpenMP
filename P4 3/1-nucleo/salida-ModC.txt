@@ -1,0 +1,5 @@
+Tiempo(seg.):0.820158737 
+Tiempo(seg.):0.031945159 
+Tiempo(seg.):0.000000216 
+Tiempo(seg.):0.000000331 
+Tiempo(seg.):0.000000214 
