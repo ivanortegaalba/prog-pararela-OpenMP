@@ -1,0 +1,15 @@
+resultado[0][0] = 8.3459e+07
+resultado[N-1][N-1] = -1.74147e+09
+Tiempo(seg.):5.401705323	 / Tamaño Matrices:1000
+resultado[0][0] = 8.3459e+07
+resultado[N-1][N-1] = -1.74147e+09
+Tiempo(seg.):2.545569432	 / Tamaño Matrices:1000
+resultado[0][0] = 8.3459e+07
+resultado[N-1][N-1] = -1.74147e+09
+Tiempo(seg.):3.117433604	 / Tamaño Matrices:1000
+resultado[0][0] = 8.3459e+07
+resultado[N-1][N-1] = -1.74147e+09
+Tiempo(seg.):3.098704023	 / Tamaño Matrices:1000
+resultado[0][0] = 8.3459e+07
+resultado[N-1][N-1] = -1.74147e+09
+Tiempo(seg.):3.103957226	 / Tamaño Matrices:1000
